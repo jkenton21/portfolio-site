@@ -7,7 +7,7 @@ import memorygameScreenshot from "../assets/MemoryGame.jpg";
 const Projects = () => {
     return (
         <div className="ProjectsContainer">
-            <div className="Header">Projects</div> 
+            <div className="ProjectsHeader">Projects</div> 
             <div className="HeaderDesc">These are some of the projects that
               I believe showcase what I have learned and what I am capable of.
               I look forward to learning even more and adding to this portfolio.</div>

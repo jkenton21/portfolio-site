@@ -6,27 +6,27 @@ import headshotPhoto from "../assets/headshot.jpg";
 const Footer = () => {
     return (
         <div className="FooterContainer">
-          Contact Me
-          <div className="socials">
-            Feel free to get in touch if you want to learn more!
-            <div>
+          <div className="Socials">
+            Contact Me
+            <p>Feel free to get in touch if you want to learn more!</p>
+            <div className="SocialLink">
               <i class="devicon-linkedin-plain"> </i>
               <a href="https://www.linkedin.com/in/jared-kenton-989a54a8/">Jared Kenton</a>
             </div>
-            <div>
+            <div className="SocialLink">
               <i class="devicon-github-original-wordmark"> </i>
               <a href="https://github.com/jkenton21">jkenton21</a>
             </div>
-            <div>
-              <img src={atLogo} alt="email logo" />
+            <div className="SocialLink">
+              <img src={atLogo} alt="email logo" width="20"/>
               jkenton21@live.com
             </div>
-            <div>
-              <img src={phoneLogo} alt="phone logo" />
+            <div className="SocialLink">
+              <img src={phoneLogo} alt="phone logo" width="20px"/>
               (913) 972-0127
             </div>
           </div>
-          <div className="headshot">
+          <div className="Headshot">
             <img className="profilePic" src={headshotPhoto} alt="personal headshot" height="200px" />
           </div>
         </div>

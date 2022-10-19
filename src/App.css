@@ -1,42 +1,120 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100vw;
+}
+
+.AboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  background-color: royalblue;
+  width: 100%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Name {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.About {
+  text-align: left;
+  width: 80vw;
+  padding: 20px;
+}
+
+.ProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  width: 100%;
+  color: black;
+}
+
+.ProjectsHeader {
+  text-align: left;
+  font-size: 30px;
+  width: 90%;
+  padding: 20px;
+}
+
+.HeaderDesc {
+  text-align: left;
+  margin-left: 25px;
+  width: 100%;
+  padding: 20px;
+}
+
+.ProjectsCardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+  width: 80%;
+  background-color: lightgray;
+  margin: 25px;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.ProjectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 40px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: -10px 10px royalblue;
+}
+
+.FooterContainer {
+  display: flex;
+  justify-content: center;
+  background-color: royalblue;
+  color: white;
+  width: 100%;
+}
+
+.Socials {
+  width: 50%;
+  text-align: left;
+  padding: 10px;
+}
+
+.SocialLink {
+  margin: 5px;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+}
+
+.Headshot {
+  width: 50%;
+  padding: 25px;
+}
+
+i {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.SocialLink > img {
+  width: 20px;
+  margin-right: 5px;
 }
 
 .profilePic {
   border-radius: 100px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
