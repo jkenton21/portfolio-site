@@ -4,7 +4,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
         <Home />
@@ -12,6 +12,6 @@ function App() {
         <Footer />
     </div>
   );
-}
+};
 
 export default App;
