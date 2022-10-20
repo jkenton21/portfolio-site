@@ -3,6 +3,8 @@ import calculatorScreenshot from "../assets/calculator.jpg";
 import todoScreenshot from "../assets/ToDo.jpg";
 import weatherappScreenshot from "../assets/Weather.jpg";
 import memorygameScreenshot from "../assets/MemoryGame.jpg";
+import shoppingcartScreenshot from "../assets/ShoppingCart.jpg";
+import cvappScreenshot from "../assets/CVApp.jpg";
 
 const Projects = () => {
     return (
@@ -34,10 +36,10 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="ProjectCard">
-                    <img src="" alt="project screenshot" height="90%"/>
+                    <img src={cvappScreenshot} alt="project screenshot" height="90%"/>
                     <div className="ProjectLinks">
-                        <a href="https://github.com/jkenton21/battleship"><i class="devicon-github-original colored"></i></a>
-                        <a href="">Battleship</a>
+                        <a href="https://github.com/jkenton21/CV-Application"><i class="devicon-github-original colored"></i></a>
+                        <a href="https://jkenton21.github.io/CV-Application/">CV Application</a>
                     </div>
                 </div>
                 <div className="ProjectCard">
@@ -48,10 +50,10 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="ProjectCard">
-                    <img src="" alt="project screenshot" height="90%"/>
+                    <img src={shoppingcartScreenshot} alt="project screenshot" height="90%"/>
                     <div className="ProjectLinks">
                         <a href="https://github.com/jkenton21/shopping-cart"><i class="devicon-github-original colored"></i></a>
-                        <a href="">Shopping Cart</a>
+                        <a href="https://jkenton21.github.io/shopping-cart/">Shopping Cart</a>
                     </div>
                 </div>
             </div>
