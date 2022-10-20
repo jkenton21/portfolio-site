@@ -19,8 +19,14 @@
   margin-bottom: 50px;
   background-color: royalblue;
   width: 100%;
-  min-height: 500px;
+  min-height: 100vh;
   color: white;
+}
+
+.HeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Name {
@@ -30,9 +36,17 @@
 }
 
 .About {
-  text-align: left;
+  text-align: center;
   width: 80vw;
   padding: 20px;
+}
+
+.HomeProfilePic {
+  border-radius: 30px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  box-shadow: -4px 4px white;
 }
 
 .ProjectsContainer {
