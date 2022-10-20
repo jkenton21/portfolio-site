@@ -4,7 +4,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
+  font-family: 'Nunito', serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 .AboutContainer {
@@ -15,6 +19,7 @@
   margin-bottom: 50px;
   background-color: royalblue;
   width: 100%;
+  min-height: 500px;
   color: white;
 }
 
@@ -43,14 +48,15 @@
 .ProjectsHeader {
   text-align: left;
   font-size: 30px;
-  width: 90%;
+  width: 80%;
   padding: 20px;
 }
 
 .HeaderDesc {
   text-align: left;
   margin-left: 25px;
-  width: 100%;
+  margin-right: 25px;
+  width: 90%;
   padding: 20px;
 }
 
@@ -58,7 +64,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
   width: 80%;
-  background-color: lightgray;
+  background: rgba(211, 211, 211, 0.3);
   margin: 25px;
   border-radius: 25px;
   padding: 25px;
@@ -70,11 +76,30 @@
   align-items: center;
   justify-content: center;
   width: 200px;
+  height: 110px;
   margin: 40px;
   background-color: white;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: -10px 10px royalblue;
+  box-shadow: -4px 4px royalblue;
+}
+
+.ProjectCard:hover {
+  transform: scale(1.1);
+}
+
+.ProjectLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.05);
 }
 
 .FooterContainer {
@@ -86,7 +111,6 @@
 }
 
 .Socials {
-  width: 50%;
   text-align: left;
   padding: 10px;
 }
@@ -101,7 +125,6 @@
 }
 
 .Headshot {
-  width: 50%;
   padding: 25px;
 }
 
