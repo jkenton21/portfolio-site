@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.115fc533.css",
-    "main.js": "/portfolio-site/static/js/main.92550756.js",
-    "static/media/Weather.jpg": "/portfolio-site/static/media/Weather.41cef40c21c848440102.jpg",
-    "static/media/CVApp.jpg": "/portfolio-site/static/media/CVApp.bd13f58f8e818ff8a95d.jpg",
-    "static/media/calculator.jpg": "/portfolio-site/static/media/calculator.23a970477e5ad296d54c.jpg",
+    "main.css": "/portfolio-site/static/css/main.a1f4fec1.css",
+    "main.js": "/portfolio-site/static/js/main.b83c323e.js",
+    "static/media/Weather.jpg": "/portfolio-site/static/media/Weather.c2cb7fd08043361b13f4.jpg",
+    "static/media/CVApp.jpg": "/portfolio-site/static/media/CVApp.ce2b269f4b62419904e7.jpg",
+    "static/media/ToDo.jpg": "/portfolio-site/static/media/ToDo.f3e49f140f32e33078e4.jpg",
+    "static/media/ShoppingCart.jpg": "/portfolio-site/static/media/ShoppingCart.a969b90fab1a5f61e371.jpg",
+    "static/media/MemoryGame.jpg": "/portfolio-site/static/media/MemoryGame.2aa31cdd5ddfa87c962e.jpg",
+    "static/media/calculator.jpg": "/portfolio-site/static/media/calculator.2a8faa88ea34b461fde4.jpg",
     "static/media/profilePic.jpg": "/portfolio-site/static/media/profilePic.0e7d04ad4f5cfc2f0644.jpg",
-    "static/media/ToDo.jpg": "/portfolio-site/static/media/ToDo.50d5d802768000447467.jpg",
-    "static/media/MemoryGame.jpg": "/portfolio-site/static/media/MemoryGame.c6590cd226e81ba8f2ef.jpg",
-    "static/media/ShoppingCart.jpg": "/portfolio-site/static/media/ShoppingCart.c088e2795dc7685a4840.jpg",
     "static/media/headshot.jpg": "/portfolio-site/static/media/headshot.f5727a882a5f0425aa4e.jpg",
     "index.html": "/portfolio-site/index.html",
-    "main.115fc533.css.map": "/portfolio-site/static/css/main.115fc533.css.map",
-    "main.92550756.js.map": "/portfolio-site/static/js/main.92550756.js.map"
+    "main.a1f4fec1.css.map": "/portfolio-site/static/css/main.a1f4fec1.css.map",
+    "main.b83c323e.js.map": "/portfolio-site/static/js/main.b83c323e.js.map"
   },
   "entrypoints": [
-    "static/css/main.115fc533.css",
-    "static/js/main.92550756.js"
+    "static/css/main.a1f4fec1.css",
+    "static/js/main.b83c323e.js"
   ]
 }
