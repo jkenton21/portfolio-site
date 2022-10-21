@@ -108,6 +108,10 @@
   justify-content: center;
 }
 
+a {
+  color: black;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -150,6 +154,10 @@ i {
 .SocialLink > img {
   width: 20px;
   margin-right: 5px;
+}
+
+.SocialLink > a {
+  color: white;
 }
 
 .profilePic {
